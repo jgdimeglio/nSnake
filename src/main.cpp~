@@ -17,8 +17,8 @@ int main(int argc, char *argv[])
 	{
 		// settings getext
 		setlocale(LC_ALL, "");
-		bindtextdomain("WindowGameHelp", "src/locale");
-		textdomain("WindowGameHelp");
+		bindtextdomain("src/locale/WindowGameHelp", "src/locale");
+		textdomain("src/locale/WindowGameHelp");
 
 		// Settings
 		EngineGlobals::init();
