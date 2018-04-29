@@ -132,7 +132,7 @@ void Game::start(std::string levelName)
 	item = new MenuItem("Resume", RESUME);
 	this->pauseMenu->add(item);
 
-	item = new MenuItem(_("Restart"), RESTART);
+	item = new MenuItem("Restart", RESTART);
 	this->pauseMenu->add(item);
 
 	this->pauseMenu->addBlank();
