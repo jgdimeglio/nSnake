@@ -76,8 +76,8 @@ If you want to test it before installing, do:
 
 Then, it's simple:
 
-        $ man nsnake
-        $ nsnake
+    $ man nsnake
+    $ nsnake
 
 Check file `INSTALL.md` for more info.
 
