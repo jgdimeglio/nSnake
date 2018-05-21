@@ -43,7 +43,10 @@ format is very easy to edit; check out [the wiki][level_wiki] for a quick guide.
 
 ## Dependencies
 
-nSnake only depends on `ncurses` and `gettext`; `ncurses` is used to show cute things in the terminal and gettext` to translate the texts into the system language (currently it is only translated into English and Spanish).
+nSnake only depends on `ncurses` and `gettext`; `ncurses` is used to
+show cute things in the terminal and gettext` to translate the texts
+into the system language (currently it is only translated into English
+and Spanish).
 
 Make sure you have the package *ncurses dev*. Note that it's _not_ the default
 that comes with your distro.
@@ -56,7 +59,8 @@ that comes with your distro.
 
 If you know the means to install on other distros, [please tell me][issues].
 
-To install `gettext` follow the documentation [www.gnu.org](https://www.gnu.org/software/gettext/)
+To install `gettext` follow the documentation
+[www.gnu.org](https://www.gnu.org/software/gettext/)
 
 ## Usage
 
@@ -72,10 +76,79 @@ If you want to test it before installing, do:
 
 Then, it's simple:
 
-	$ man nsnake
-	$ nsnake
+        $ man nsnake
+        $ nsnake
 
 Check file `INSTALL.md` for more info.
+
+## Translator gettext
+
+Gettext works by, first, generating a template file with all the
+strings to be translated directly extracted from the source files,
+this template file is called a .pot file which stands for Portable
+Object Template. Once you get this template file, you can use it to
+create one file per language supported by your software, these new
+files are called .po files which stands for Portable Object. Then, in
+order to make it machine readable, these .po files are translated to
+.mo files which stands for Machine Object files.
+
+### Add new language
+
+Create a new folder with the name of the new language in
+`src/locale/`, within the created folder create another name
+`LC_MESSAGES`.
+
+In the `LC_MESSAGES` folder the files with the texts to be translated
+will be included.
+
+Then execute the following commands:
+
+#### Generate a new template
+
+We first need to update the .pot file:
+
+`xgettext --keyword=_ --language=C --add-comments --sort-output -o
+src/locale/main.pot src/*/*.cpp src/*/*/*.cpp`
+
+#### Generate mo file
+
+Finally, we write the translation of the new string in the .po file
+and build the .mo file as follow:
+
+`msgfmt -c -v -o src/locale/es/LC_MESSAGES/main.mo
+src/locale/es/LC_MESSAGES/main.po`
+
+#### Generate file with translations
+
+`msginit -l es_ES -o src/locale/es/LC_MESSAGES/main.po src/locale/main.pot`
+
+Change es_ES with the language you want to use.
+
+### Translate new text
+
+All strings must be translated with _("string") notation, then you
+must execute the following commands.
+
+#### Generate a new template
+
+We first need to update the .pot file (as previously):
+
+`xgettext --keyword=_ --language=C --add-comments --sort-output -o
+src/locale/main.pot src/*/*.cpp src/*/*/*.cpp`
+
+#### Generate file with translations
+
+Then, we merge it with the previous file :
+
+`msgmerge --update src/locale/es/LC_MESSAGES/main.po src/locale/main.pot`
+
+#### Generate mo file
+
+Finally, we write the translation of the new string in the .po file
+and build the .mo file as follow:
+
+`msgfmt -c -v -o src/locale/es/LC_MESSAGES/main.mo
+src/locale/es/LC_MESSAGES/main.po`
 
 ## Contact
 
@@ -111,7 +184,8 @@ Also, it's all over the web!
 * [Package on Debian](https://tracker.debian.org/pkg/nsnake)
 * [Package on Fedora](https://apps.fedoraproject.org/packages/nsnake)
 * [Package on Arch Linux (AUR)](https://aur.archlinux.org/packages/nsnake/)
-* [Package on Slackware (SlackBuilds)](http://slackbuilds.org/repository/14.1/games/nSnake/)
+* [Package on Slackware
+(SlackBuilds)](http://slackbuilds.org/repository/14.1/games/nSnake/)
 
 ## Credits
 
@@ -132,7 +206,7 @@ I raise my hat to:
   * homepage: http://ninvaders.sourceforge.net
   * comments: "Thanks for the inspiration. If I haven't installed
                this in first place, I'd never have the idea
-			   for nsnake"
+                           for nsnake"
 
 * *pacman4console*: A console-based pacman game.
   * homepage:  http://doctormike.googlepages.com/pacman.html
@@ -144,7 +218,7 @@ I raise my hat to:
   * homepage: http://code.google.com/p/vadorz/
   * comments: "This package is awesome, 'cause it uses ncurses
                AND pdcurses to be able to play in Windows and
-			   GNU/Linux"
+                           GNU/Linux"
 
 * *snake4*: Fruit-eating snake game
   * homepage: http://shh.thathost.com/
@@ -191,4 +265,3 @@ I raise my hat to:
 [googlecode]:  http://code.google.com/p/nsnake/
 [contrib]:     https://github.com/alexdantas/nSnake/graphs/contributors
 [level_wiki]:  https://github.com/alexdantas/nSnake/wiki/How-to-create-your-own-levels
-
