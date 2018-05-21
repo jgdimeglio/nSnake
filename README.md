@@ -43,7 +43,7 @@ format is very easy to edit; check out [the wiki][level_wiki] for a quick guide.
 
 ## Dependencies
 
-nSnake only depends on `ncurses`; it's used to show cute things on the terminal.
+nSnake only depends on `ncurses` and `gettext`; `ncurses` is used to show cute things in the terminal and gettext` to translate the texts into the system language (currently it is only translated into English and Spanish).
 
 Make sure you have the package *ncurses dev*. Note that it's _not_ the default
 that comes with your distro.
@@ -55,6 +55,8 @@ that comes with your distro.
 | Arch Linux     | _comes by default_                |
 
 If you know the means to install on other distros, [please tell me][issues].
+
+To install `gettext` follow the documentation [www.gnu.org](https://www.gnu.org/software/gettext/)
 
 ## Usage
 
