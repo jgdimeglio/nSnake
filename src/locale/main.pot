@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-23 02:05-0300\n"
+"POT-Creation-Date: 2018-05-23 02:25-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,8 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: src/Entities/BoardParser.cpp:94
+msgid "Abrupt ending of file while parsing level at line "
+msgstr ""
+
 #: src/Display/Layouts/LayoutGame.cpp:32
 msgid "Arcade Mode"
+msgstr ""
+
+#: src/Entities/BoardParser.cpp:39
+msgid "Can't open file'"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:97
@@ -41,6 +49,18 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
+#: src/Entities/BoardParser.cpp:173
+msgid "author"
+msgstr ""
+
+#: src/Entities/BoardParser.cpp:175
+msgid "comment"
+msgstr ""
+
+#: src/Entities/BoardParser.cpp:174
+msgid "date"
+msgstr ""
+
 #: src/Entities/Game.cpp:220
 msgid "down"
 msgstr ""
@@ -51,6 +71,10 @@ msgstr ""
 
 #: src/Entities/Game.cpp:208
 msgid "left"
+msgstr ""
+
+#: src/Entities/BoardParser.cpp:172
+msgid "name"
 msgstr ""
 
 #: src/Entities/Game.cpp:162
