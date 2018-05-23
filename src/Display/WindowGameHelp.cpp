@@ -44,7 +44,7 @@ void WindowGameHelp::run()
 
 		this->main->print(((activatedIndex == 0) ?
 		                   "(Help)" :
-		                   " Help "),
+		                   _(" Help ")),
 		                  2,
 		                  0,
 		                  ((activatedIndex == 0) ?
@@ -53,7 +53,7 @@ void WindowGameHelp::run()
 
 		this->main->print(((activatedIndex == 1) ?
 		                   "(Credits)" :
-		                   " Credits "),
+		                   _(" Credits ")),
 		                  12,
 		                  0,
 		                  ((activatedIndex == 1) ?
@@ -70,7 +70,7 @@ void WindowGameHelp::run()
 		// Help Window
 		if (activatedIndex == 0)
 		{
-			this->windows[0]->print("In-game controls:\n",
+			this->windows[0]->print(_("In-game controls:\n"),
 			                        0, 0,
 			                        EngineGlobals::Theme::hilite_text);
 
@@ -84,13 +84,13 @@ void WindowGameHelp::run()
 			                        1, 1,
 			                        EngineGlobals::Theme::hilite_text);
 
-			this->windows[0]->print(Utils::String::split(InputManager::keyToString(InputManager::getBind("up")) + "\n" +
-			                                             InputManager::keyToString(InputManager::getBind("down")) + "\n" +
-			                                             InputManager::keyToString(InputManager::getBind("left")) + "\n" +
-			                                             InputManager::keyToString(InputManager::getBind("right")) + "\n" +
-			                                             InputManager::keyToString(InputManager::getBind("pause")) + "\n" +
-			                                             InputManager::keyToString(InputManager::getBind("quit")) + "\n" +
-			                                             InputManager::keyToString(InputManager::getBind("help")), '\n'),
+			this->windows[0]->print(Utils::String::split(InputManager::keyToString(InputManager::getBind(_("up"))) + "\n" +
+			                                             InputManager::keyToString(InputManager::getBind(_("down"))) + "\n" +
+			                                             InputManager::keyToString(InputManager::getBind(_("left"))) + "\n" +
+			                                             InputManager::keyToString(InputManager::getBind(_("right"))) + "\n" +
+			                                             InputManager::keyToString(InputManager::getBind(_("pause"))) + "\n" +
+			                                             InputManager::keyToString(InputManager::getBind(_("quit"))) + "\n" +
+			                                             InputManager::keyToString(InputManager::getBind(_("help"))), '\n'),
 			                        14, 1,
 			                        EngineGlobals::Theme::text);
 
@@ -103,7 +103,7 @@ void WindowGameHelp::run()
 			                        1, 10,
 			                        EngineGlobals::Theme::hilite_text);
 
-			this->windows[0]->print(Utils::String::split("page up\n"
+			this->windows[0]->print(Utils::String::split( "page up\n"
 			                                             "page down", '\n'),
 			                        14, 10,
 			                        EngineGlobals::Theme::text);
@@ -166,4 +166,3 @@ void WindowGameHelp::run()
 			return;
 	}
 }
-
