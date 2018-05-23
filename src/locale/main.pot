@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-28 21:09-0300\n"
+"POT-Creation-Date: 2018-05-23 02:05-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src/Display/Layouts/LayoutGame.cpp:27
+#: src/Display/Layouts/LayoutGame.cpp:32
 msgid "Arcade Mode"
 msgstr ""
 
@@ -25,6 +25,48 @@ msgstr ""
 msgid "Menu controls:\n"
 msgstr ""
 
+#: src/Entities/Game.cpp:143
+msgid "Quit Game"
+msgstr ""
+
+#: src/Entities/Game.cpp:140
+msgid "Quit to Main Menu"
+msgstr ""
+
 #: src/Entities/Game.cpp:135
 msgid "Restart"
+msgstr ""
+
+#: src/Entities/Game.cpp:132
+msgid "Resume"
+msgstr ""
+
+#: src/Entities/Game.cpp:220
+msgid "down"
+msgstr ""
+
+#: src/Entities/Game.cpp:182
+msgid "help"
+msgstr ""
+
+#: src/Entities/Game.cpp:208
+msgid "left"
+msgstr ""
+
+#: src/Entities/Game.cpp:162
+msgid "pause"
+msgstr ""
+
+#. The only two absolute inputs are to quit and pause.
+#. Others depend if the game is paused or not.
+#: src/Entities/Game.cpp:158
+msgid "quit"
+msgstr ""
+
+#: src/Entities/Game.cpp:212
+msgid "right"
+msgstr ""
+
+#: src/Entities/Game.cpp:216
+msgid "up"
 msgstr ""

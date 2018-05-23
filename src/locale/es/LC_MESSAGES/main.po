@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-04-28 21:09-0300\n"
+"POT-Creation-Date: 2018-05-23 02:02-0300\n"
 "PO-Revision-Date: 2018-04-28 21:11-0300\n"
 "Last-Translator: root <prueba@prueba.com>\n"
 "Language-Team: Spanish\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/Display/Layouts/LayoutGame.cpp:27
+#: src/Display/Layouts/LayoutGame.cpp:32
 msgid "Arcade Mode"
 msgstr "Modo Arcade"
 
@@ -25,6 +25,48 @@ msgstr "Modo Arcade"
 msgid "Menu controls:\n"
 msgstr "Controles de menu:\n"
 
+#: src/Entities/Game.cpp:143
+msgid "Quit Game"
+msgstr "Salir del Juego"
+
+#: src/Entities/Game.cpp:140
+msgid "Quit to Main Menu"
+msgstr "Salir al menu principal"
+
 #: src/Entities/Game.cpp:135
 msgid "Restart"
 msgstr "Reiniciar"
+
+#: src/Entities/Game.cpp:132
+msgid "Resume"
+msgstr "Resumen"
+
+#: src/Entities/Game.cpp:220
+msgid "down"
+msgstr "abajo"
+
+#: src/Entities/Game.cpp:182
+msgid "help"
+msgstr "Ayuda"
+
+#: src/Entities/Game.cpp:208
+msgid "left"
+msgstr "izquierda"
+
+#: src/Entities/Game.cpp:162
+msgid "pause"
+msgstr "Pausa"
+
+#. The only two absolute inputs are to quit and pause.
+#. Others depend if the game is paused or not.
+#: src/Entities/Game.cpp:158
+msgid "quit"
+msgstr "Salir"
+
+#: src/Entities/Game.cpp:212
+msgid "right"
+msgstr "derecha"
+
+#: src/Entities/Game.cpp:216
+msgid "up"
+msgstr "arriba"
