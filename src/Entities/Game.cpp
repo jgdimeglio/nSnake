@@ -124,7 +124,7 @@ void Game::start(std::string levelName)
 
 	MenuItem* item;
 
-	item = new MenuItem("Resume", RESUME);
+	item = new MenuItem(_("Resume"), RESUME);
 	this->pauseMenu->add(item);
 
 	item = new MenuItem("Restart", RESTART);
@@ -132,10 +132,10 @@ void Game::start(std::string levelName)
 
 	this->pauseMenu->addBlank();
 
-	item = new MenuItem("Quit to Main Menu", QUIT_MENU);
+	item = new MenuItem(_("Quit to Main Menu"), QUIT_MENU);
 	this->pauseMenu->add(item);
 
-	item = new MenuItem("Quit Game", QUIT_GAME);
+	item = new MenuItem(_("Quit Game"), QUIT_GAME);
 	this->pauseMenu->add(item);
 
 	// Starting timers
@@ -150,11 +150,11 @@ void Game::handleInput()
 
 	// The only two absolute inputs are to quit and pause.
 	// Others depend if the game is paused or not.
-	if (InputManager::isPressed("quit"))
+	if (InputManager::isPressed(_("quit")))
 	{
 		this->userAskedToQuit = true;
 	}
-	else if (InputManager::isPressed("pause"))
+	else if (InputManager::isPressed(_("pause")))
 	{
 		(this->isPaused) ?
 			this->pause(false) :
@@ -174,7 +174,7 @@ void Game::handleInput()
 			// unpauses the game.
 		}
 	}
-	else if (InputManager::isPressed("help"))
+	else if (InputManager::isPressed(_("help")))
 	{
 		// Toggling Pause and Help window
 		if (this->isPaused)
@@ -200,19 +200,19 @@ void Game::handleInput()
 		return;
 	}
 
-	if (InputManager::isPressed("left"))
+	if (InputManager::isPressed(_("left")))
 	{
 		this->player->move(Player::LEFT);
 	}
-	else if (InputManager::isPressed("right"))
+	else if (InputManager::isPressed(_("right")))
 	{
 		this->player->move(Player::RIGHT);
 	}
-	else if (InputManager::isPressed("up"))
+	else if (InputManager::isPressed(_("up")))
 	{
 		this->player->move(Player::UP);
 	}
-	else if (InputManager::isPressed("down"))
+	else if (InputManager::isPressed(_("down")))
 	{
 		this->player->move(Player::DOWN);
 	}
@@ -367,4 +367,3 @@ void Game::pause(bool option)
 		this->timerSnake.unpause();
 	}
 }
-
