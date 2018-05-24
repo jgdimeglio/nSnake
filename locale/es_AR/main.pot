@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 01:12-0300\n"
+"POT-Creation-Date: 2018-05-24 01:39-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,20 +39,73 @@ msgid ""
 " `~/.local/share/nsnake/`"
 msgstr ""
 
+#: src/Entities/ScoreFile.cpp:121
+msgid "' doesn't exist"
+msgstr ""
+
+#: src/Entities/ScoreFile.cpp:147
+msgid "' has an old version format"
+msgstr ""
+
 #: src/Entities/BoardParser.cpp:94
 msgid "Abrupt ending of file while parsing level at line "
 msgstr ""
 
-#: src/Display/Layouts/LayoutGame.cpp:32
+#: src/States/GameStateMainMenu.cpp:160
+msgid "All high scores erased!"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:354 src/Display/Layouts/LayoutGame.cpp:32
 msgid "Arcade Mode"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:155
+msgid "Are you sure?"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:388 src/States/GameStateMainMenu.cpp:413
+#: src/States/GameStateMainMenu.cpp:493 src/States/GameStateMainMenu.cpp:536
+msgid "Back"
 msgstr ""
 
 #: src/Entities/BoardParser.cpp:39
 msgid "Can't open file'"
 msgstr ""
 
+#: src/States/GameStateMainMenu.cpp:515
+msgid "Center Horizontal"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:520
+msgid "Center Vertical"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:305 src/States/GameStateMainMenu.cpp:366
+msgid "Controls"
+msgstr ""
+
+#: src/Entities/ScoreFile.cpp:229
+msgid "Could not create file '"
+msgstr ""
+
+#: src/States/GameStateGame.cpp:32
+msgid "Couldn't load the level! (Error: \""
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:478
+msgid "Erase High Scores"
+msgstr ""
+
 #: src/Config/Globals.cpp:402
 msgid "Error: Corrupted high score file!\n"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:505
+msgid "Fancy Borders"
+msgstr ""
+
+#: src/Entities/ScoreFile.cpp:121 src/Entities/ScoreFile.cpp:147
+msgid "File '"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:101
@@ -61,7 +114,23 @@ msgid ""
 "Last item"
 msgstr ""
 
-#: src/Display/Layouts/LayoutGame.cpp:65
+#: src/States/GameStateMainMenu.cpp:423
+msgid "Fruits"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:300 src/States/GameStateMainMenu.cpp:363
+msgid "GUI Options"
+msgstr ""
+
+#: src/States/GameStateGame.cpp:70
+msgid "Game Over"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:295 src/States/GameStateMainMenu.cpp:360
+msgid "Game Settings"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:369 src/Display/Layouts/LayoutGame.cpp:65
 msgid "Help"
 msgstr ""
 
@@ -73,12 +142,59 @@ msgstr ""
 msgid "In-game controls:\n"
 msgstr ""
 
+#: src/States/GameStateMainMenu.cpp:549
+msgid "Key down"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:565
+msgid "Key help"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:553
+msgid "Key left"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:561
+msgid "Key pause"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:569
+msgid "Key quit"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:557
+msgid "Key right"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:545
+msgid "Key up"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:438 src/States/GameStateMainMenu.cpp:449
+msgid "Large"
+msgstr ""
+
 #: src/Display/Layouts/LayoutGame.cpp:34
 msgid "Level "
 msgstr ""
 
+#: src/States/GameStateMainMenu.cpp:289 src/States/GameStateMainMenu.cpp:357
+msgid "Level Select"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:120 src/States/GameStateMainMenu.cpp:166
+#: src/States/GameStateMainMenu.cpp:182 src/States/GameStateMainMenu.cpp:205
 #: src/Display/Layouts/LayoutMainMenu.cpp:47
 msgid "Main Menu"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:452
+msgid "Maze size"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:437 src/States/GameStateMainMenu.cpp:448
+#: src/States/GameStateMainMenu.cpp:606
+msgid "Medium"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:97
@@ -96,8 +212,20 @@ msgid ""
 "Show help"
 msgstr ""
 
+#: src/States/GameStateMainMenu.cpp:510
+msgid "Outer Border"
+msgstr ""
+
 #: src/Display/Layouts/LayoutGame.cpp:56
 msgid "Paused"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:238
+msgid "Press any key, Enter to Cancel"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:372
+msgid "Quit"
 msgstr ""
 
 #: src/Entities/Game.cpp:143
@@ -108,6 +236,18 @@ msgstr ""
 msgid "Quit to Main Menu"
 msgstr ""
 
+#: src/States/GameStateMainMenu.cpp:391
+msgid "Random"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:431
+msgid "Random Walls"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:574
+msgid "Reset to Defaults"
+msgstr ""
+
 #: src/Entities/Game.cpp:135
 msgid "Restart"
 msgstr ""
@@ -116,8 +256,36 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
+#: src/States/GameStateGame.cpp:70
+msgid "Retry?"
+msgstr ""
+
 #: src/Display/Layouts/LayoutGame.cpp:132
 msgid "Score"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:461
+msgid "Scroll Delay(ms)"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:467
+msgid "Scroll Down"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:470
+msgid "Scroll Left"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:473
+msgid "Scroll Right"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:464
+msgid "Scroll Up"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:500
+msgid "Show Borders"
 msgstr ""
 
 #: src/Config/Arguments.cpp:73
@@ -128,8 +296,28 @@ msgstr ""
 msgid "Show instructions"
 msgstr ""
 
+#: src/States/GameStateMainMenu.cpp:436 src/States/GameStateMainMenu.cpp:447
+#: src/States/GameStateMainMenu.cpp:603
+msgid "Small"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:277
+msgid ""
+"Sorry, it seems you have no levels.\n"
+"\n"
+"Please copy the default level files from\n"
+msgstr ""
+
 #: src/Display/Layouts/LayoutGame.cpp:133
 msgid "Speed"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:420
+msgid "Starting Speed"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:428
+msgid "Teleport"
 msgstr ""
 
 #: src/Config/Globals.cpp:380
@@ -142,6 +330,10 @@ msgstr ""
 
 #: src/Config/Globals.cpp:394
 msgid "Warning: Your high score file is from an old nsnake version."
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:284
+msgid "You can also download more levels from the website:\n"
 msgstr ""
 
 #: src/Entities/BoardParser.cpp:173
@@ -190,6 +382,10 @@ msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:90 src/Entities/Game.cpp:212
 msgid "right"
+msgstr ""
+
+#: src/States/GameStateMainMenu.cpp:281
+msgid "to\n"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:87 src/Entities/Game.cpp:216
