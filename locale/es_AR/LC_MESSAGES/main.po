@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-23 02:43-0300\n"
+"POT-Creation-Date: 2018-05-24 00:40-0300\n"
 "PO-Revision-Date: 2018-04-28 21:11-0300\n"
 "Last-Translator: root <prueba@prueba.com>\n"
 "Language-Team: Spanish\n"
@@ -25,6 +25,13 @@ msgstr "Creditos"
 msgid " Help "
 msgstr "Ayuda"
 
+#: src/Display/WindowGameHelp.cpp:111
+#, fuzzy
+msgid ""
+" Settings and scores are stored at:\n"
+" `~/.local/share/nsnake/`"
+msgstr "Opciones y tabla de puntuaciones son guardadas en:\n"
+
 #: src/Entities/BoardParser.cpp:94
 msgid "Abrupt ending of file while parsing level at line "
 msgstr "Fin abrupto del archivo mientras generaba nivel en la linea"
@@ -39,7 +46,10 @@ msgid "Can't open file'"
 msgstr "No se puede abrir el archivo"
 
 #: src/Display/WindowGameHelp.cpp:101
-msgid "First item\n"
+#, fuzzy
+msgid ""
+"First item\n"
+"Last item"
 msgstr "Primer Item\n"
 
 #: src/Display/WindowGameHelp.cpp:73
@@ -47,41 +57,24 @@ msgstr "Primer Item\n"
 msgid "In-game controls:\n"
 msgstr "Controles de menu:\n"
 
-#: src/Display/WindowGameHelp.cpp:102
-msgid "Last item"
-msgstr "Ultimo Item"
-
 #: src/Display/WindowGameHelp.cpp:97
 msgid "Menu controls:\n"
 msgstr "Controles de menu:\n"
 
-#: src/Display/WindowGameHelp.cpp:78
-msgid "Move down\n"
-msgstr "Mover abajo\n"
-
-#: src/Display/WindowGameHelp.cpp:79
-msgid "Move left\n"
-msgstr "Mover izquierda\n"
-
-#: src/Display/WindowGameHelp.cpp:80
-msgid "Move right\n"
-msgstr " mover derecha\n"
-
 #: src/Display/WindowGameHelp.cpp:77
-msgid "Move up\n"
-msgstr "Mover arriba\n"
-
-#: src/Display/WindowGameHelp.cpp:81
-msgid "Pause game\n"
-msgstr "Juego en pausa\n"
+msgid ""
+"Move up\n"
+"Move down\n"
+"Move left\n"
+"Move right\n"
+"Pause game\n"
+"Quit anytime\n"
+"Show help"
+msgstr ""
 
 #: src/Entities/Game.cpp:143
 msgid "Quit Game"
 msgstr "Salir del Juego"
-
-#: src/Display/WindowGameHelp.cpp:82
-msgid "Quit anytime\n"
-msgstr "Salir en cualquier momento\n"
 
 #: src/Entities/Game.cpp:140
 msgid "Quit to Main Menu"
@@ -94,10 +87,6 @@ msgstr "Reiniciar"
 #: src/Entities/Game.cpp:132
 msgid "Resume"
 msgstr "Resumen"
-
-#: src/Display/WindowGameHelp.cpp:83
-msgid "Show help"
-msgstr "Mostrar Ayuda"
 
 #: src/Entities/BoardParser.cpp:173
 msgid "author"
@@ -127,13 +116,12 @@ msgstr "izquierda"
 msgid "name"
 msgstr "nombre"
 
-#: src/Display/WindowGameHelp.cpp:107
-msgid "page down"
-msgstr "Pagina abajo"
-
 #: src/Display/WindowGameHelp.cpp:106
-msgid "page up\n"
-msgstr "Pagina arriba\n"
+#, fuzzy
+msgid ""
+"page up\n"
+"page down"
+msgstr "Pagina abajo"
 
 #: src/Display/WindowGameHelp.cpp:91 src/Entities/Game.cpp:162
 msgid "pause"
@@ -153,8 +141,32 @@ msgstr "derecha"
 msgid "up"
 msgstr "arriba"
 
-#~ msgid "Settings and scores are stored at:\n"
-#~ msgstr "Opciones y tabla de puntuaciones son guardadas en:\n"
+#~ msgid "Last item"
+#~ msgstr "Ultimo Item"
+
+#~ msgid "Move down\n"
+#~ msgstr "Mover abajo\n"
+
+#~ msgid "Move left\n"
+#~ msgstr "Mover izquierda\n"
+
+#~ msgid "Move right\n"
+#~ msgstr " mover derecha\n"
+
+#~ msgid "Move up\n"
+#~ msgstr "Mover arriba\n"
+
+#~ msgid "Pause game\n"
+#~ msgstr "Juego en pausa\n"
+
+#~ msgid "Quit anytime\n"
+#~ msgstr "Salir en cualquier momento\n"
+
+#~ msgid "Show help"
+#~ msgstr "Mostrar Ayuda"
+
+#~ msgid "page up\n"
+#~ msgstr "Pagina arriba\n"
 
 #~ msgid "end"
 #~ msgstr "fin"

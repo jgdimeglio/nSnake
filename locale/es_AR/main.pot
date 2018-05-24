@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-23 02:43-0300\n"
+"POT-Creation-Date: 2018-05-24 00:40-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,6 +25,12 @@ msgstr ""
 msgid " Help "
 msgstr ""
 
+#: src/Display/WindowGameHelp.cpp:111
+msgid ""
+" Settings and scores are stored at:\n"
+" `~/.local/share/nsnake/`"
+msgstr ""
+
 #: src/Entities/BoardParser.cpp:94
 msgid "Abrupt ending of file while parsing level at line "
 msgstr ""
@@ -38,47 +44,32 @@ msgid "Can't open file'"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:101
-msgid "First item\n"
+msgid ""
+"First item\n"
+"Last item"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:73
 msgid "In-game controls:\n"
 msgstr ""
 
-#: src/Display/WindowGameHelp.cpp:102
-msgid "Last item"
-msgstr ""
-
 #: src/Display/WindowGameHelp.cpp:97
 msgid "Menu controls:\n"
 msgstr ""
 
-#: src/Display/WindowGameHelp.cpp:78
-msgid "Move down\n"
-msgstr ""
-
-#: src/Display/WindowGameHelp.cpp:79
-msgid "Move left\n"
-msgstr ""
-
-#: src/Display/WindowGameHelp.cpp:80
-msgid "Move right\n"
-msgstr ""
-
 #: src/Display/WindowGameHelp.cpp:77
-msgid "Move up\n"
-msgstr ""
-
-#: src/Display/WindowGameHelp.cpp:81
-msgid "Pause game\n"
+msgid ""
+"Move up\n"
+"Move down\n"
+"Move left\n"
+"Move right\n"
+"Pause game\n"
+"Quit anytime\n"
+"Show help"
 msgstr ""
 
 #: src/Entities/Game.cpp:143
 msgid "Quit Game"
-msgstr ""
-
-#: src/Display/WindowGameHelp.cpp:82
-msgid "Quit anytime\n"
 msgstr ""
 
 #: src/Entities/Game.cpp:140
@@ -91,10 +82,6 @@ msgstr ""
 
 #: src/Entities/Game.cpp:132
 msgid "Resume"
-msgstr ""
-
-#: src/Display/WindowGameHelp.cpp:83
-msgid "Show help"
 msgstr ""
 
 #: src/Entities/BoardParser.cpp:173
@@ -125,12 +112,10 @@ msgstr ""
 msgid "name"
 msgstr ""
 
-#: src/Display/WindowGameHelp.cpp:107
-msgid "page down"
-msgstr ""
-
 #: src/Display/WindowGameHelp.cpp:106
-msgid "page up\n"
+msgid ""
+"page up\n"
+"page down"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:91 src/Entities/Game.cpp:162

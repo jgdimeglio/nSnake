@@ -74,13 +74,13 @@ void WindowGameHelp::run()
 			                        0, 0,
 			                        EngineGlobals::Theme::hilite_text);
 
-			this->windows[0]->print(Utils::String::split("Move up\n"
+			this->windows[0]->print(Utils::String::split(_("Move up\n"
 			                                             "Move down\n"
 			                                             "Move left\n"
 			                                             "Move right\n"
 			                                             "Pause game\n"
 			                                             "Quit anytime\n"
-			                                             "Show help", '\n'),
+			                                             "Show help"), '\n'),
 			                        1, 1,
 			                        EngineGlobals::Theme::hilite_text);
 
@@ -98,18 +98,18 @@ void WindowGameHelp::run()
 			                        0, 9,
 			                        EngineGlobals::Theme::hilite_text);
 
-			this->windows[0]->print(Utils::String::split("First item\n"
-			                                             "Last item", '\n'),
+			this->windows[0]->print(Utils::String::split(_("First item\n"
+			                                             "Last item"), '\n'),
 			                        1, 10,
 			                        EngineGlobals::Theme::hilite_text);
 
-			this->windows[0]->print(Utils::String::split( "page up\n"
-			                                             "page down", '\n'),
+			this->windows[0]->print(Utils::String::split( _("page up\n"
+			                                             "page down"), '\n'),
 			                        14, 10,
 			                        EngineGlobals::Theme::text);
 
-			this->windows[0]->print(Utils::String::split(" Settings and scores are stored at:\n"
-			                                             " `~/.local/share/nsnake/`", '\n'),
+			this->windows[0]->print(Utils::String::split(_(" Settings and scores are stored at:\n"
+			                                             " `~/.local/share/nsnake/`"), '\n'),
 			                        0, 13,
 			                        EngineGlobals::Theme::text);
 		}
