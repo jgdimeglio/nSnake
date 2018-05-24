@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 01:03-0300\n"
+"POT-Creation-Date: 2018-05-24 01:12-0300\n"
 "PO-Revision-Date: 2018-04-28 21:11-0300\n"
 "Last-Translator: root <prueba@prueba.com>\n"
 "Language-Team: Spanish\n"
@@ -34,10 +34,10 @@ msgid " Help "
 msgstr "Ayuda"
 
 #: src/Display/WindowGameHelp.cpp:111
-msgid ""
+msgid
 " Settings and scores are stored at:\n"
 " `~/.local/share/nsnake/`"
-msgstr ""
+msgstr
 "Opciones y tabla de puntuaciones son guardadas en:\n"
 " `~/.local/share/nsnake/`"
 
@@ -59,23 +59,41 @@ msgid "Error: Corrupted high score file!\n"
 msgstr "Error:Tabla de Puntajes corrupta!\n"
 
 #: src/Display/WindowGameHelp.cpp:101
-msgid ""
+msgid
 "First item\n"
 "Last item"
-msgstr ""
+msgstr
 "Primer Item\n"
 "Ultimo Item"
+
+#: src/Display/Layouts/LayoutGame.cpp:65
+#, fuzzy
+msgid "Help"
+msgstr "Ayuda"
+
+#: src/Display/Layouts/LayoutGame.cpp:131
+msgid "Hi-Score"
+msgstr "Mayor Puntaje"
 
 #: src/Display/WindowGameHelp.cpp:73
 msgid "In-game controls:\n"
 msgstr "Controles de juego:\n"
+
+#: src/Display/Layouts/LayoutGame.cpp:34
+msgid "Level "
+msgstr "Nivel"
+
+#: src/Display/Layouts/LayoutMainMenu.cpp:47
+#, fuzzy
+msgid "Main Menu"
+msgstr "Salir al menu principal"
 
 #: src/Display/WindowGameHelp.cpp:97
 msgid "Menu controls:\n"
 msgstr "Controles de menu:\n"
 
 #: src/Display/WindowGameHelp.cpp:77
-msgid ""
+msgid
 "Move up\n"
 "Move down\n"
 "Move left\n"
@@ -83,7 +101,7 @@ msgid ""
 "Pause game\n"
 "Quit anytime\n"
 "Show help"
-msgstr ""
+msgstr
 "Mover arriba\n"
 "Mover abajo\n"
 "Mover izquierda\n"
@@ -91,6 +109,11 @@ msgstr ""
 "Boton de pausa\n"
 "Salir del juego\n"
 "Mostrar ayuda"
+
+#: src/Display/Layouts/LayoutGame.cpp:56
+#, fuzzy
+msgid "Paused"
+msgstr "Pausa"
 
 #: src/Entities/Game.cpp:143
 msgid "Quit Game"
@@ -108,6 +131,10 @@ msgstr "Reiniciar"
 msgid "Resume"
 msgstr "Resumen"
 
+#: src/Display/Layouts/LayoutGame.cpp:132
+msgid "Score"
+msgstr "Puntos"
+
 #: src/Config/Arguments.cpp:73
 msgid "Show game version and build date"
 msgstr "Mostrar version del juego y construir datos de juego"
@@ -115,6 +142,10 @@ msgstr "Mostrar version del juego y construir datos de juego"
 #: src/Config/Arguments.cpp:74
 msgid "Show instructions"
 msgstr "Mostrar instrucciones"
+
+#: src/Display/Layouts/LayoutGame.cpp:133
+msgid "Speed"
+msgstr "Velocidad"
 
 #: src/Config/Globals.cpp:380
 msgid "Warning: We could not create the configuration file.\n"
@@ -126,7 +157,7 @@ msgstr "Advertencia:No se pudo crear la tabla de puntajes\n"
 
 #: src/Config/Globals.cpp:394
 msgid "Warning: Your high score file is from an old nsnake version."
-msgstr ""
+msgstr
 "Advertencia:La tabla de puntajes corresponde a una version anterior del juego"
 
 #: src/Entities/BoardParser.cpp:173
@@ -158,10 +189,10 @@ msgid "name"
 msgstr "nombre"
 
 #: src/Display/WindowGameHelp.cpp:106
-msgid ""
+msgid
 "page up\n"
 "page down"
-msgstr ""
+msgstr
 "Pagina abajo\n"
 "Pagina arriba"
 

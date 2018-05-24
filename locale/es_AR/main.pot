@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 01:03-0300\n"
+"POT-Creation-Date: 2018-05-24 01:12-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,8 +61,24 @@ msgid ""
 "Last item"
 msgstr ""
 
+#: src/Display/Layouts/LayoutGame.cpp:65
+msgid "Help"
+msgstr ""
+
+#: src/Display/Layouts/LayoutGame.cpp:131
+msgid "Hi-Score"
+msgstr ""
+
 #: src/Display/WindowGameHelp.cpp:73
 msgid "In-game controls:\n"
+msgstr ""
+
+#: src/Display/Layouts/LayoutGame.cpp:34
+msgid "Level "
+msgstr ""
+
+#: src/Display/Layouts/LayoutMainMenu.cpp:47
+msgid "Main Menu"
 msgstr ""
 
 #: src/Display/WindowGameHelp.cpp:97
@@ -78,6 +94,10 @@ msgid ""
 "Pause game\n"
 "Quit anytime\n"
 "Show help"
+msgstr ""
+
+#: src/Display/Layouts/LayoutGame.cpp:56
+msgid "Paused"
 msgstr ""
 
 #: src/Entities/Game.cpp:143
@@ -96,12 +116,20 @@ msgstr ""
 msgid "Resume"
 msgstr ""
 
+#: src/Display/Layouts/LayoutGame.cpp:132
+msgid "Score"
+msgstr ""
+
 #: src/Config/Arguments.cpp:73
 msgid "Show game version and build date"
 msgstr ""
 
 #: src/Config/Arguments.cpp:74
 msgid "Show instructions"
+msgstr ""
+
+#: src/Display/Layouts/LayoutGame.cpp:133
+msgid "Speed"
 msgstr ""
 
 #: src/Config/Globals.cpp:380
