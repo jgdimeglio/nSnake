@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-24 00:40-0300\n"
+"POT-Creation-Date: 2018-05-24 01:03-0300\n"
 "PO-Revision-Date: 2018-04-28 21:11-0300\n"
 "Last-Translator: root <prueba@prueba.com>\n"
 "Language-Team: Spanish\n"
@@ -16,6 +16,14 @@ msgstr ""
 "Content-Type: text/plain; charset=ASCII\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Config/Globals.cpp:381 src/Config/Globals.cpp:388
+msgid "         Please check permissions to the path:\n"
+msgstr " Por favor chequear los permisos en el directorio:\n"
+
+#: src/Config/Globals.cpp:403
+msgid "       We're sorry, but we had to erase it"
+msgstr " Disculpas,pero hemos borrado la tabla corrupta "
 
 #: src/Display/WindowGameHelp.cpp:56
 msgid " Credits "
@@ -26,11 +34,12 @@ msgid " Help "
 msgstr "Ayuda"
 
 #: src/Display/WindowGameHelp.cpp:111
-#, fuzzy
 msgid ""
 " Settings and scores are stored at:\n"
 " `~/.local/share/nsnake/`"
-msgstr "Opciones y tabla de puntuaciones son guardadas en:\n"
+msgstr ""
+"Opciones y tabla de puntuaciones son guardadas en:\n"
+" `~/.local/share/nsnake/`"
 
 #: src/Entities/BoardParser.cpp:94
 msgid "Abrupt ending of file while parsing level at line "
@@ -45,17 +54,21 @@ msgstr "Modo Arcade"
 msgid "Can't open file'"
 msgstr "No se puede abrir el archivo"
 
+#: src/Config/Globals.cpp:402
+msgid "Error: Corrupted high score file!\n"
+msgstr "Error:Tabla de Puntajes corrupta!\n"
+
 #: src/Display/WindowGameHelp.cpp:101
-#, fuzzy
 msgid ""
 "First item\n"
 "Last item"
-msgstr "Primer Item\n"
+msgstr ""
+"Primer Item\n"
+"Ultimo Item"
 
 #: src/Display/WindowGameHelp.cpp:73
-#, fuzzy
 msgid "In-game controls:\n"
-msgstr "Controles de menu:\n"
+msgstr "Controles de juego:\n"
 
 #: src/Display/WindowGameHelp.cpp:97
 msgid "Menu controls:\n"
@@ -71,6 +84,13 @@ msgid ""
 "Quit anytime\n"
 "Show help"
 msgstr ""
+"Mover arriba\n"
+"Mover abajo\n"
+"Mover izquierda\n"
+"Mover derecha\n"
+"Boton de pausa\n"
+"Salir del juego\n"
+"Mostrar ayuda"
 
 #: src/Entities/Game.cpp:143
 msgid "Quit Game"
@@ -87,6 +107,27 @@ msgstr "Reiniciar"
 #: src/Entities/Game.cpp:132
 msgid "Resume"
 msgstr "Resumen"
+
+#: src/Config/Arguments.cpp:73
+msgid "Show game version and build date"
+msgstr "Mostrar version del juego y construir datos de juego"
+
+#: src/Config/Arguments.cpp:74
+msgid "Show instructions"
+msgstr "Mostrar instrucciones"
+
+#: src/Config/Globals.cpp:380
+msgid "Warning: We could not create the configuration file.\n"
+msgstr "Advertencia:No se pudo crear el archivo de configuracion.\n"
+
+#: src/Config/Globals.cpp:387
+msgid "Warning: We could not create the score file.\n"
+msgstr "Advertencia:No se pudo crear la tabla de puntajes\n"
+
+#: src/Config/Globals.cpp:394
+msgid "Warning: Your high score file is from an old nsnake version."
+msgstr ""
+"Advertencia:La tabla de puntajes corresponde a una version anterior del juego"
 
 #: src/Entities/BoardParser.cpp:173
 msgid "author"
@@ -117,11 +158,12 @@ msgid "name"
 msgstr "nombre"
 
 #: src/Display/WindowGameHelp.cpp:106
-#, fuzzy
 msgid ""
 "page up\n"
 "page down"
-msgstr "Pagina abajo"
+msgstr ""
+"Pagina abajo\n"
+"Pagina arriba"
 
 #: src/Display/WindowGameHelp.cpp:91 src/Entities/Game.cpp:162
 msgid "pause"
@@ -140,36 +182,3 @@ msgstr "derecha"
 #: src/Display/WindowGameHelp.cpp:87 src/Entities/Game.cpp:216
 msgid "up"
 msgstr "arriba"
-
-#~ msgid "Last item"
-#~ msgstr "Ultimo Item"
-
-#~ msgid "Move down\n"
-#~ msgstr "Mover abajo\n"
-
-#~ msgid "Move left\n"
-#~ msgstr "Mover izquierda\n"
-
-#~ msgid "Move right\n"
-#~ msgstr " mover derecha\n"
-
-#~ msgid "Move up\n"
-#~ msgstr "Mover arriba\n"
-
-#~ msgid "Pause game\n"
-#~ msgstr "Juego en pausa\n"
-
-#~ msgid "Quit anytime\n"
-#~ msgstr "Salir en cualquier momento\n"
-
-#~ msgid "Show help"
-#~ msgstr "Mostrar Ayuda"
-
-#~ msgid "page up\n"
-#~ msgstr "Pagina arriba\n"
-
-#~ msgid "end"
-#~ msgstr "fin"
-
-#~ msgid "start"
-#~ msgstr "Empezar"
