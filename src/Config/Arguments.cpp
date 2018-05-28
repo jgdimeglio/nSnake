@@ -4,6 +4,11 @@
 #include <iostream>
 #include <cstdlib>
 
+#include <libintl.h>
+#include <locale.h>
+
+#define _(STRING) gettext(STRING)
+
 // Local functions that'll be used as callbacks
 // for the right switches.
 
@@ -65,10 +70,9 @@ void Arguments::parse(int argc, char* argv[])
 	command_t cmd;
 	command_init(&cmd, argv[0], VERSION);
 
-	command_option(&cmd, "-v", "--version", "Show game version and build date", version);
-	command_option(&cmd, "-h", "--help",    "Show instructions", help);
+	command_option(&cmd, "-v", "--version", _("Show game version and build date"), version);
+	command_option(&cmd, "-h", "--help",    _("Show instructions"), help);
 
 	command_parse(&cmd, argc, argv);
 	command_free(&cmd);
 }
-
