@@ -5,6 +5,12 @@
 #include <Engine/InputManager.hpp>
 #include <Engine/Helpers/Utils.hpp>
 
+#include <iostream>
+
+#include <libintl.h>
+#include <locale.h>
+#define _(STRING) gettext(STRING)
+
 WindowGameHelp::WindowGameHelp()
 {
 	int width  = 40;

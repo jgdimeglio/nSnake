@@ -7,6 +7,12 @@
 
 #include <stdlib.h>
 
+#include <iostream>
+
+#include <libintl.h>
+#include <locale.h>
+#define _(STRING) gettext(STRING)
+
 // Options of the Pause Menu
 enum NamesToEasilyIdentifyTheMenuItemsInsteadOfRawNumbers
 {
