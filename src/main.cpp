@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		// settings getext
 		setlocale(LC_ALL, "");
-		bindtextdomain("main", "locale");
+		bindtextdomain("main", "src/locale");
 		textdomain("main");
 
 		// Settings
