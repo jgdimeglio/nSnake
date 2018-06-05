@@ -1,0 +1,409 @@
+# Spanish translations for PACKAGE package.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# root <prueba@prueba.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-24 01:39-0300\n"
+"PO-Revision-Date: 2018-04-28 21:11-0300\n"
+"Last-Translator: root <prueba@prueba.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Config/Globals.cpp:381 src/Config/Globals.cpp:388
+msgid "         Please check permissions to the path:\n"
+msgstr " Por favor chequear los permisos en el directorio:\n"
+
+#: src/Config/Globals.cpp:403
+msgid "       We're sorry, but we had to erase it"
+msgstr " Disculpas,pero hemos borrado la tabla corrupta "
+
+#: src/Display/WindowGameHelp.cpp:56
+msgid " Credits "
+msgstr "Creditos"
+
+#: src/Display/WindowGameHelp.cpp:47
+msgid " Help "
+msgstr "Ayuda"
+
+#: src/Display/WindowGameHelp.cpp:111
+msgid ""
+" Settings and scores are stored at:\n"
+" `~/.local/share/nsnake/`"
+msgstr ""
+"Opciones y tabla de puntuaciones son guardadas en:\n"
+" `~/.local/share/nsnake/`"
+
+#: src/Entities/ScoreFile.cpp:121
+msgid "' doesn't exist"
+msgstr "no existe"
+
+#: src/Entities/ScoreFile.cpp:147
+msgid "' has an old version format"
+msgstr "esta en una version anterior"
+
+#: src/Entities/BoardParser.cpp:94
+msgid "Abrupt ending of file while parsing level at line "
+msgstr "Fin abrupto del archivo mientras generaba nivel en la linea"
+
+#: src/States/GameStateMainMenu.cpp:160
+msgid "All high scores erased!"
+msgstr "Todas las tablas de puntajes borradas"
+
+#: src/States/GameStateMainMenu.cpp:354 src/Display/Layouts/LayoutGame.cpp:32
+msgid "Arcade Mode"
+msgstr "Modo Arcade"
+
+#: src/States/GameStateMainMenu.cpp:155
+msgid "Are you sure?"
+msgstr "Estas seguro?"
+
+#: src/States/GameStateMainMenu.cpp:388 src/States/GameStateMainMenu.cpp:413
+#: src/States/GameStateMainMenu.cpp:493 src/States/GameStateMainMenu.cpp:536
+msgid "Back"
+msgstr "Volver"
+
+#: src/Entities/BoardParser.cpp:39
+msgid "Can't open file'"
+msgstr "No se puede abrir el archivo"
+
+#: src/States/GameStateMainMenu.cpp:515
+msgid "Center Horizontal"
+msgstr "Centrado Horizontal"
+
+#: src/States/GameStateMainMenu.cpp:520
+msgid "Center Vertical"
+msgstr "Centrado Vertical"
+
+#: src/States/GameStateMainMenu.cpp:305 src/States/GameStateMainMenu.cpp:366
+msgid "Controls\n"
+msgstr "Controles de menu:\n"
+
+#: src/Entities/ScoreFile.cpp:229
+msgid "Could not create file '"
+msgstr "No se puede crear el archivo"
+
+#: src/States/GameStateGame.cpp:32
+msgid "Couldn't load the level! (Error: \""
+msgstr "No se puede cargar el nivel (Error: \""
+
+#: src/States/GameStateMainMenu.cpp:478
+msgid "Erase High Scores"
+msgstr "Tabla de puntajes borrada"
+
+#: src/Config/Globals.cpp:402
+msgid "Error: Corrupted high score file!\n"
+msgstr "Error:Tabla de Puntajes corrupta!\n"
+
+#: src/States/GameStateMainMenu.cpp:505
+msgid "Fancy Borders"
+msgstr "Bordes elegantes"
+
+#: src/Entities/ScoreFile.cpp:121 src/Entities/ScoreFile.cpp:147
+msgid "File '"
+msgstr "Archivo"
+
+#: src/Display/WindowGameHelp.cpp:101
+msgid ""
+"First item\n"
+"Last item"
+msgstr ""
+"Primer Item\n"
+"Ultimo Item"
+
+#: src/States/GameStateMainMenu.cpp:423
+msgid "Fruits"
+msgstr "Frutas"
+
+#: src/States/GameStateMainMenu.cpp:300 src/States/GameStateMainMenu.cpp:363
+msgid "GUI Options"
+msgstr "Opciones graficas"
+
+#: src/States/GameStateGame.cpp:70
+msgid "Game Over"
+msgstr "Fin del Juego"
+
+#: src/States/GameStateMainMenu.cpp:295 src/States/GameStateMainMenu.cpp:360
+msgid "Game Settings"
+msgstr "Configuraciones"
+
+#: src/States/GameStateMainMenu.cpp:369 src/Display/Layouts/LayoutGame.cpp:65
+msgid "Help"
+msgstr "Ayuda"
+
+#: src/Display/Layouts/LayoutGame.cpp:131
+msgid "Hi-Score"
+msgstr "Mas alto"
+
+#: src/Display/WindowGameHelp.cpp:73
+msgid "In-game controls:\n"
+msgstr "Controles de juego:\n"
+
+#: src/States/GameStateMainMenu.cpp:549
+msgid "Key down"
+msgstr "abajo"
+
+#: src/States/GameStateMainMenu.cpp:565
+msgid "Key help"
+msgstr "Ayuda"
+
+#: src/States/GameStateMainMenu.cpp:553
+msgid "Key left"
+msgstr "izquierda"
+
+#: src/States/GameStateMainMenu.cpp:561
+msgid "Key pause"
+msgstr "Pausa"
+
+#: src/States/GameStateMainMenu.cpp:569
+msgid "Key quit"
+msgstr "Salir"
+
+#: src/States/GameStateMainMenu.cpp:557
+msgid "Key right"
+msgstr "derecha"
+
+#: src/States/GameStateMainMenu.cpp:545
+msgid "Key up"
+msgstr "Tecla arriba"
+
+#: src/States/GameStateMainMenu.cpp:438 src/States/GameStateMainMenu.cpp:449
+msgid "Large"
+msgstr "Grande"
+
+#: src/Display/Layouts/LayoutGame.cpp:34
+msgid "Level "
+msgstr "Nivel"
+
+#: src/States/GameStateMainMenu.cpp:289 src/States/GameStateMainMenu.cpp:357
+msgid "Level Select"
+msgstr "Nivel"
+
+#: src/States/GameStateMainMenu.cpp:120 src/States/GameStateMainMenu.cpp:166
+#: src/States/GameStateMainMenu.cpp:182 src/States/GameStateMainMenu.cpp:205
+#: src/Display/Layouts/LayoutMainMenu.cpp:47
+msgid "Main Menu"
+msgstr "Menu principal"
+
+#: src/States/GameStateMainMenu.cpp:452
+msgid "Maze size"
+msgstr "Tamaño del laberinto"
+
+#: src/States/GameStateMainMenu.cpp:437 src/States/GameStateMainMenu.cpp:448
+#: src/States/GameStateMainMenu.cpp:606
+msgid "Medium"
+msgstr "Mediano"
+
+#: src/Display/WindowGameHelp.cpp:97
+msgid "Menu controls:\n"
+msgstr "Controles de menu:\n"
+
+#: src/Display/WindowGameHelp.cpp:77
+msgid ""
+"Move up\n"
+"Move down\n"
+"Move left\n"
+"Move right\n"
+"Pause game\n"
+"Quit anytime\n"
+"Show help"
+msgstr ""
+"Mover arriba\n"
+"Mover abajo\n"
+"Mover izquierda\n"
+"Mover derecha\n"
+"Boton de pausa\n"
+"Salir del juego\n"
+"Mostrar ayuda"
+
+#: src/States/GameStateMainMenu.cpp:510
+msgid "Outer Border"
+msgstr "Borde exterior"
+
+#: src/Display/Layouts/LayoutGame.cpp:56
+msgid "Paused"
+msgstr "Pausa"
+
+#: src/States/GameStateMainMenu.cpp:238
+msgid "Press any key, Enter to Cancel"
+msgstr "Toque cualquier tecla,enter para cancelar"
+
+#: src/States/GameStateMainMenu.cpp:372
+msgid "Quit"
+msgstr "Salir del Juego"
+
+#: src/Entities/Game.cpp:143
+msgid "Quit Game"
+msgstr "Salir del Juego"
+
+#: src/Entities/Game.cpp:140
+msgid "Quit to Main Menu"
+msgstr "Salir al menu principal"
+
+#: src/States/GameStateMainMenu.cpp:391
+msgid "Random"
+msgstr "Aleatorio"
+
+#: src/States/GameStateMainMenu.cpp:431
+msgid "Random Walls"
+msgstr "Paredes aleatorias"
+
+#: src/States/GameStateMainMenu.cpp:574
+msgid "Reset to Defaults"
+msgstr "Volver a configuracion original"
+
+#: src/Entities/Game.cpp:135
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: src/Entities/Game.cpp:132
+msgid "Resume"
+msgstr "Resumen"
+
+#: src/States/GameStateGame.cpp:70
+msgid "Retry?"
+msgstr "Otra vez ?"
+
+#: src/Display/Layouts/LayoutGame.cpp:132
+msgid "Score"
+msgstr "Puntos"
+
+#: src/States/GameStateMainMenu.cpp:461
+msgid "Scroll Delay(ms)"
+msgstr "Desplazamiento(retraso en ms)"
+
+#: src/States/GameStateMainMenu.cpp:467
+msgid "Scroll Down"
+msgstr "Desplazamiento hacia abajo"
+
+#: src/States/GameStateMainMenu.cpp:470
+msgid "Scroll Left"
+msgstr "Desplazamiento hacia la izquierda"
+
+#: src/States/GameStateMainMenu.cpp:473
+msgid "Scroll Right"
+msgstr "Desplazamiento hacia la derecha"
+
+#: src/States/GameStateMainMenu.cpp:464
+msgid "Scroll Up"
+msgstr "Desplazamiento hacia arriba"
+
+#: src/States/GameStateMainMenu.cpp:500
+msgid "Show Borders"
+msgstr "Mostrar bordes"
+
+#: src/Config/Arguments.cpp:73
+msgid "Show game version and build date"
+msgstr "Mostrar version del juego y construir datos de juego"
+
+#: src/Config/Arguments.cpp:74
+msgid "Show instructions"
+msgstr "Mostrar instrucciones"
+
+#: src/States/GameStateMainMenu.cpp:436 src/States/GameStateMainMenu.cpp:447
+#: src/States/GameStateMainMenu.cpp:603
+msgid "Small"
+msgstr "Pequeño"
+
+#: src/States/GameStateMainMenu.cpp:277
+msgid ""
+"Sorry, it seems you have no levels.\n"
+"\n"
+"Please copy the default level files from\n"
+msgstr "Disculpas,pareciera no haber niveles\n"
+"\n"
+"Por favor,copiar los niveles basicos de\n"
+
+#: src/Display/Layouts/LayoutGame.cpp:133
+msgid "Speed"
+msgstr "Vel."
+
+#: src/States/GameStateMainMenu.cpp:420
+msgid "Starting Speed"
+msgstr "Velocidad de inicio"
+
+#: src/States/GameStateMainMenu.cpp:428
+msgid "Teleport"
+msgstr "Teletransporte"
+
+#: src/Config/Globals.cpp:380
+msgid "Warning: We could not create the configuration file.\n"
+msgstr "Advertencia:No se pudo crear el archivo de configuracion.\n"
+
+#: src/Config/Globals.cpp:387
+msgid "Warning: We could not create the score file.\n"
+msgstr "Advertencia:No se pudo crear la tabla de puntajes\n"
+
+#: src/Config/Globals.cpp:394
+msgid "Warning: Your high score file is from an old nsnake version."
+msgstr ""
+"Advertencia:La tabla de puntajes corresponde a una version anterior del juego"
+
+#: src/States/GameStateMainMenu.cpp:284
+msgid "You can also download more levels from the website:\n"
+msgstr "Podes bajar mas niveles desde el sitio web:\n"
+
+#: src/Entities/BoardParser.cpp:173
+msgid "author"
+msgstr "autor"
+
+#: src/Entities/BoardParser.cpp:175
+msgid "comment"
+msgstr "comentarios"
+
+#: src/Entities/BoardParser.cpp:174
+msgid "date"
+msgstr "fecha"
+
+#: src/Display/WindowGameHelp.cpp:88 src/Entities/Game.cpp:220
+msgid "down"
+msgstr "abajo"
+
+#: src/Display/WindowGameHelp.cpp:93 src/Entities/Game.cpp:182
+msgid "help"
+msgstr "Ayuda"
+
+#: src/Display/WindowGameHelp.cpp:89 src/Entities/Game.cpp:208
+msgid "left"
+msgstr "izquierda"
+
+#: src/Entities/BoardParser.cpp:172
+msgid "name"
+msgstr "nombre"
+
+#: src/Display/WindowGameHelp.cpp:106
+msgid ""
+"page up\n"
+"page down"
+msgstr ""
+"Pagina abajo\n"
+"Pagina arriba"
+
+#: src/Display/WindowGameHelp.cpp:91 src/Entities/Game.cpp:162
+msgid "pause"
+msgstr "Pausa"
+
+#. The only two absolute inputs are to quit and pause.
+#. Others depend if the game is paused or not.
+#: src/Display/WindowGameHelp.cpp:92 src/Entities/Game.cpp:158
+msgid "quit"
+msgstr "Salir"
+
+#: src/Display/WindowGameHelp.cpp:90 src/Entities/Game.cpp:212
+msgid "right"
+msgstr "derecha"
+
+#: src/States/GameStateMainMenu.cpp:281
+msgid "to\n"
+msgstr "a\n"
+
+#: src/Display/WindowGameHelp.cpp:87 src/Entities/Game.cpp:216
+msgid "up"
+msgstr "arriba"

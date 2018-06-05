@@ -5,11 +5,21 @@
 #include <Config/Globals.hpp>
 #include <Config/Arguments.hpp>
 #include <States/GameStateMainMenu.hpp>
+#include <libintl.h>
+#include <locale.h>
+
+
+#define _(STRING) gettext(STRING)
 
 int main(int argc, char *argv[])
 {
 	try
 	{
+		// settings getext
+		setlocale(LC_ALL, "");
+		bindtextdomain("main", "src/locale");
+		textdomain("main");
+
 		// Settings
 		EngineGlobals::init();
 		Globals::init();
@@ -39,4 +49,3 @@ int main(int argc, char *argv[])
 	}
 	return 0;
 }
-

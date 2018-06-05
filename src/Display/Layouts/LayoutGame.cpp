@@ -2,6 +2,12 @@
 #include <Engine/EngineGlobals.hpp>
 #include <Engine/Helpers/Utils.hpp>
 
+#include <iostream>
+
+#include <libintl.h>
+#include <locale.h>
+#define _(STRING) gettext(STRING)
+
 LayoutGame::LayoutGame(Game* game, int width, int height):
 	Layout(width, height),
 	game(game),
@@ -26,7 +32,7 @@ void LayoutGame::windowsInit()
 	if (this->game->currentScore->level.empty())
 		this->main->setTitle("Arcade Mode", Window::TOP_RIGHT);
 	else
-		this->main->setTitle("Level " + this->game->board->getMetadata("name"), Window::TOP_RIGHT);
+		this->main->setTitle(_("Level ") + this->game->board->getMetadata("name"), Window::TOP_RIGHT);
 
 	// Leftmost window
 	this->gamewin = new Window(this->main,
@@ -48,7 +54,7 @@ void LayoutGame::windowsInit()
 	                         this->main->getW() / 2,
 	                         7);
 
-	this->pause->setTitle("Paused");
+	this->pause->setTitle(_("Paused"));
 
 	// Le help window.
 	this->help = new Window(this->main,
@@ -57,7 +63,7 @@ void LayoutGame::windowsInit()
 	                        this->main->getW() / 2,
 	                        this->main->getH() / 2);
 
-	this->help->setTitle("Help");
+	this->help->setTitle(_("Help"));
 
 	this->helpWindows = new WindowGameHelp();
 }
@@ -123,9 +129,9 @@ void LayoutGame::draw(Menu* menu)
 
 	ColorPair hilite = EngineGlobals::Theme::hilite_text;
 
-	this->info->print("Hi-Score", 0, 0, hilite);
-	this->info->print("Score",    this->info->getW()/3, 0, hilite);
-	this->info->print("Speed",    this->info->getW()/3 * 2, 0, hilite);
+	this->info->print(_("Hi-Score"), 0, 0, hilite);
+	this->info->print(_("Score"),    this->info->getW()/3, 0, hilite);
+	this->info->print(_("Speed"),    this->info->getW()/3 * 2, 0, hilite);
 
 	if (this->game->scores->highScore)
 	{
@@ -187,4 +193,3 @@ void LayoutGame::draw(Menu* menu)
 	// NCURSES NEEDS THIS
 	refresh();
 }
-
